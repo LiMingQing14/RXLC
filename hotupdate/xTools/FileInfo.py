@@ -4,6 +4,11 @@
 import hashlib
 import os
 
+INFO_FILE = 'file'
+INFO_MD5 = 'md5'
+INFO_SIZE = 'size'
+INFO_SUB_VERSION = 'sub_version'
+
 class FileInfo:
     """文件信息"""
 
@@ -11,7 +16,7 @@ class FileInfo:
     buff_size = 8192
 
     def __init__(self, file_name, prefix):
-        self.file_name = file_name
+        self.file_name = file_name.replace('\\', '/')
         self.prefix = prefix
 
     def _GetFileMD5(self):
@@ -37,14 +42,13 @@ class FileInfo:
             value值是文件MD5、大小与文件名（原）
         """
         # 名字
-        key = self.file_name.replace('\\', '/')
-        element = key.split('/')
-        element[0] = self.prefix # 修改前缀
+        element = self.file_name.split('/')
+        element[0] = self.prefix # 修改前缀文件夹名
         key = '/'.join(element)
         #
         value = {}
-        value["File"] = self.file_name
-        value['MD5'] = self._GetFileMD5()
-        value['Size'] = self._GetFileSize()
+        value[INFO_FILE] = self.file_name
+        value[INFO_MD5] = self._GetFileMD5()
+        value[INFO_SIZE] = self._GetFileSize()
         #
         return key, value

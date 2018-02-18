@@ -1,40 +1,50 @@
 {
-    "version": 0, 
+    "version": 1, 
     "assets": {
         "src/app/add.lua": {
-            "Size": 58, 
-            "File": "src\\app\\add.lua", 
-            "MD5": "B62F355417A78419B601B0716003E4D1"
+            "size": 61, 
+            "file": "src/app/add.lua", 
+            "md5": "840F7CFF06AF8CEE234B2462A8646C4A"
         }, 
         "src/app/main.lua": {
-            "Size": 86, 
-            "File": "src\\app\\main.lua", 
-            "MD5": "9FB7B378F665DF2062244E6ADA17DF2F"
+            "size": 180, 
+            "file": "src/app/main.lua", 
+            "md5": "F1D07CB23151D202F5658B93B68F87C3"
         }, 
         "res/more.png": {
-            "Size": 28587, 
-            "File": "res\\more.png", 
-            "MD5": "28D93174919D8F5FF990188AFBB66253"
+            "size": 28587, 
+            "file": "res/more.png", 
+            "md5": "28D93174919D8F5FF990188AFBB66253"
         }, 
         "res/forever.png": {
-            "Size": 14058, 
-            "File": "extend_res\\forever.png", 
-            "MD5": "81BAC64286DCFBC95F900CAFC0A2D837"
+            "size": 14058, 
+            "file": "extend_res/forever.png", 
+            "md5": "81BAC64286DCFBC95F900CAFC0A2D837"
+        }, 
+        "src/app/sub.lua": {
+            "size": 61, 
+            "file": "src/app/sub.lua", 
+            "md5": "C11C8B2B222B338D7F575444A31B4791"
+        }, 
+        "src/app/mul.lua": {
+            "size": 61, 
+            "file": "src/app/mul.lua", 
+            "md5": "D3080055513E257C0D232E013ED9C850"
         }, 
         "res/month.png": {
-            "Size": 14376, 
-            "File": "extend_res\\month.png", 
-            "MD5": "5EF34C238B948ADE7CE3E73389C7F4B8"
+            "size": 14376, 
+            "file": "extend_res/month.png", 
+            "md5": "5EF34C238B948ADE7CE3E73389C7F4B8"
         }, 
         "res/most.png": {
-            "Size": 26131, 
-            "File": "res\\most.png", 
-            "MD5": "838210C35B09416EFF65DC3CB099D381"
+            "size": 26131, 
+            "file": "res/most.png", 
+            "md5": "838210C35B09416EFF65DC3CB099D381"
         }, 
         "res/half_year.png": {
-            "Size": 13994, 
-            "File": "extend_res\\half_year.png", 
-            "MD5": "14929765778A379F20FD1C135FB715F0"
+            "size": 13994, 
+            "file": "extend_res/half_year.png", 
+            "md5": "14929765778A379F20FD1C135FB715F0"
         }
     }
 }
