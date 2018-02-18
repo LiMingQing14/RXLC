@@ -1,0 +1,40 @@
+{
+    "version": 0, 
+    "assets": {
+        "src/app/add.lua": {
+            "Size": 58, 
+            "File": "src\\app\\add.lua", 
+            "MD5": "B62F355417A78419B601B0716003E4D1"
+        }, 
+        "src/app/main.lua": {
+            "Size": 86, 
+            "File": "src\\app\\main.lua", 
+            "MD5": "9FB7B378F665DF2062244E6ADA17DF2F"
+        }, 
+        "res/more.png": {
+            "Size": 28587, 
+            "File": "res\\more.png", 
+            "MD5": "28D93174919D8F5FF990188AFBB66253"
+        }, 
+        "res/forever.png": {
+            "Size": 14058, 
+            "File": "extend_res\\forever.png", 
+            "MD5": "81BAC64286DCFBC95F900CAFC0A2D837"
+        }, 
+        "res/month.png": {
+            "Size": 14376, 
+            "File": "extend_res\\month.png", 
+            "MD5": "5EF34C238B948ADE7CE3E73389C7F4B8"
+        }, 
+        "res/most.png": {
+            "Size": 26131, 
+            "File": "res\\most.png", 
+            "MD5": "838210C35B09416EFF65DC3CB099D381"
+        }, 
+        "res/half_year.png": {
+            "Size": 13994, 
+            "File": "extend_res\\half_year.png", 
+            "MD5": "14929765778A379F20FD1C135FB715F0"
+        }
+    }
+}
