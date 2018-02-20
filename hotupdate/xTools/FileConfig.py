@@ -24,13 +24,13 @@ def __LazyInit():
 def getVersionCodeCfg():
     """获取版本号文件名字"""
     __LazyInit()
-    options = __config_parser.options('VERSION')
+    options = __config_parser.options('version')
     return options[0]
 
 def getHotUpdateDirectoryCfg():
     """获取热更文件夹配置"""
     __LazyInit()
-    items = __config_parser.items('DIRECTORY')
+    items = __config_parser.items('directory')
 
     dir_list, pre_list = [], []
     for prefix, folder in items:
@@ -42,11 +42,11 @@ def getHotUpdateDirectoryCfg():
 
 def getLocalSaveCfg():
     __LazyInit()
-    return __config_parser.get('SAVE', 'local')
+    return __config_parser.get('save', 'local')
 
 def getRemoteSaveCfg():
     __LazyInit()
-    return __config_parser.get('SAVE', 'remote')
+    return __config_parser.get('save', 'remote')
 
 if __name__ == '__main__':
     print getVersionCodeCfg()
