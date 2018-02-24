@@ -382,9 +382,6 @@ class HotUpdate(object):
                 src = os.path.join(Config['client'], asset.file)
                 dst = os.path.join(folder, asset.file)
                 Helper.copyFile(src, dst)
-                # 额外复制一份到'all'文件夹
-                dst = os.path.join('all', asset.file)
-                Helper.copyFile(src, dst)
         # 保存配置清单
         self.project.save(os.path.join(folder, 'project.manifest'))
 
