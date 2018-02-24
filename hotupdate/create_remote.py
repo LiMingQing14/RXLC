@@ -17,7 +17,7 @@ if __name__ == '__main__':
     """ 第二步：读取当前最新文件的配置，然后与原始配置比较，得到当前热更的差异配置 """
     # local与remote的project
     local_project = Project.load(LOCAL_JSON)
-    remote_project = Project.generate(Config['client'], False)
+    remote_project = Project.generate(Config['client'], True)
     # 比较两个project，得到差异表
     diff_project = remote_project.compare(local_project)
 
