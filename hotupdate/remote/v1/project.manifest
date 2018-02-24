@@ -1,0 +1,13 @@
+{
+    "version": 1, 
+    "assets": {
+        "src/app/add.lua": {
+            "md5": "8EDE03C20C2E2A2D24C431D784AC1F43", 
+            "size": 143
+        }, 
+        "src/app/main.lua": {
+            "md5": "37F995C3371E03E1D6B31C9FC0635949", 
+            "size": 446
+        }
+    }
+}
