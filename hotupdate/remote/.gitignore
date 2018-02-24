@@ -1,3 +1,5 @@
-/v[0123456789]*/src
-/v[0123456789]*/res
-/v[0123456789]*/extend_res
+/v[0-9]/
+!/v[0-9]/project.manifest
+
+/v[0-9][0-9]/
+!/v[0-9][0-9]/project.manifest
